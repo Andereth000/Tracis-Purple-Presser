@@ -7,12 +7,11 @@ import math
 pygame.init()
 
 pygame.mixer.init()
-pop_sound = pygame.mixer.Sound(
-    "Audio/Pop sound effect.mp3")  # Replace with the actual path to your sound file
+pop_sound = pygame.mixer.Sound("Audio/Pop sound effect.mp3")  # Replace with the actual path to your sound file
 
 # Set up display
 infoObject = pygame.display.Info()
-screen = pygame.display.set_mode((infoObject.current_w, infoObject.current_h), OPENGL | DOUBLEBUF)
+screen = pygame.display.set_mode((infoObject.current_w, infoObject.current_h))
 width, height = infoObject.current_w, infoObject.current_h
 pygame.display.set_caption("Traci's Purple Presser")
 
