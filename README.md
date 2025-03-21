@@ -1,1 +1,4 @@
-Download as a zip file, extract, and run **python3 Tracis_Purple_Presser** !
+1. Download as a zip file, and extract.
+2. Run 'pip install pygame' inside main directory.
+3. Run 'python '.\Traci''s_Purple_Presser.py''
+4. Enjoy!
